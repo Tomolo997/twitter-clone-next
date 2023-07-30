@@ -5,7 +5,7 @@ import TrendingSection from "@/components/TrendingSection"
 const Home = () => {
   return (
     <div className="w-full h-full flex justify-center items-center">
-      <div className="max-w-screen-xl w-full h-full flex relative">
+      <div className="max-w-screen-xl w-full h-full text-white flex relative">
         <LeftSidebar></LeftSidebar>
         <Timeline></Timeline>
         <TrendingSection></TrendingSection>
